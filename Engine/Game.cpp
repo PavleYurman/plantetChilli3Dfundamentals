@@ -114,7 +114,7 @@ void Game::OutputSceneName() const
 		<< stars << std::endl;
 	OutputDebugStringA( ss.str().c_str() );
 }
-
+// wow the computer vent gets wild when drawing this scene
 void Game::ComposeFrame()
 {
 	// draw scene
